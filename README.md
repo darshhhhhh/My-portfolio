@@ -55,3 +55,16 @@ with your actual resume PDF using the same filename.
    - Branch: `main`
    - Folder: `/root`
 6. Save.
+
+
+## Responsive update
+
+This version includes a stronger responsive layout:
+
+- Desktop keeps the 3D visual style.
+- Mobile disables unstable 3D tilt effects.
+- Project sections stack cleanly on smaller screens.
+- Mobile gets a compact hamburger menu.
+- Buttons, cards, visuals, contact links and typography scale properly.
+- Reverse project sections are reordered on mobile so text appears first.
+- SVG visuals keep stable aspect ratios and do not overflow.
