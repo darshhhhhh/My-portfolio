@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="About Darshil">
+  <defs>
+    <radialGradient id="glow" cx=".72" cy=".2" r=".7">
+      <stop stop-color="#ff3045" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#8b5cf6" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#070a12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#ff3045"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="44" fill="#080b12"/>
+  <rect width="960" height="540" rx="44" fill="url(#glow)"/>
+  <circle cx="812" cy="92" r="104" fill="#ff3045" opacity=".11"/>
+  <circle cx="148" cy="438" r="118" fill="#8b5cf6" opacity=".12"/>
+  <path d="M84 454C256 346 376 494 534 376S750 246 884 320" stroke="url(#line)" stroke-width="5" fill="none" opacity=".55"/>
+
+        <g transform="translate(132 108)">
+          <rect width="696" height="360" rx="34" fill="#111827" stroke="#263146"/>
+          <rect x="38" y="42" width="245" height="22" rx="11" fill="#ff3045"/>
+          <rect x="38" y="86" width="510" height="12" rx="6" fill="#334155"/>
+          <rect x="38" y="114" width="445" height="12" rx="6" fill="#334155"/>
+          <rect x="38" y="176" width="170" height="118" rx="24" fill="#172033" stroke="#2b3650"/>
+          <rect x="242" y="176" width="170" height="118" rx="24" fill="#172033" stroke="#2b3650"/>
+          <rect x="446" y="176" width="170" height="118" rx="24" fill="#172033" stroke="#2b3650"/>
+          <text x="76" y="247" font-size="36" font-weight="900" fill="#ff3045">ML</text>
+          <text x="285" y="247" font-size="36" font-weight="900" fill="#8b5cf6">AI</text>
+          <text x="487" y="247" font-size="36" font-weight="900" fill="#ffffff">PY</text>
+        </g>
+
+  <text x="56" y="72" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" fill="#ffffff">About Darshil</text>
+  <text x="58" y="110" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#94a3b8">AI/ML focused engineering profile</text>
+</svg>

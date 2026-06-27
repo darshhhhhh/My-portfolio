@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Fraud Detection">
+  <defs>
+    <radialGradient id="glow" cx=".72" cy=".2" r=".7">
+      <stop stop-color="#38bdf8" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#ff3045" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#070a12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#ff3045"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="44" fill="#080b12"/>
+  <rect width="960" height="540" rx="44" fill="url(#glow)"/>
+  <circle cx="812" cy="92" r="104" fill="#38bdf8" opacity=".11"/>
+  <circle cx="148" cy="438" r="118" fill="#ff3045" opacity=".12"/>
+  <path d="M84 454C256 346 376 494 534 376S750 246 884 320" stroke="url(#line)" stroke-width="5" fill="none" opacity=".55"/>
+
+        <g transform="translate(146 142) rotate(-4 220 130)">
+          <rect width="398" height="244" rx="34" fill="#111827" stroke="#263146"/>
+          <circle cx="322" cy="72" r="34" fill="#ff3045" opacity=".9"/>
+          <circle cx="276" cy="72" r="34" fill="#38bdf8" opacity=".8"/>
+          <rect x="52" y="75" width="138" height="18" rx="9" fill="#3a465f"/>
+          <rect x="52" y="145" width="260" height="22" rx="11" fill="#ffffff" opacity=".8"/>
+        </g>
+        <g transform="translate(606 112)">
+          <path d="M126 0 246 52v94c0 92-55 150-120 178C61 296 6 238 6 146V52z" fill="#111827" stroke="#263146" stroke-width="3"/>
+          <path d="M126 72v116" stroke="#38bdf8" stroke-width="28" stroke-linecap="round"/>
+          <circle cx="126" cy="235" r="18" fill="#38bdf8"/>
+        </g>
+
+  <text x="56" y="72" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" fill="#ffffff">Fraud Detection</text>
+  <text x="58" y="110" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#94a3b8">Risk scoring and imbalanced classification</text>
+</svg>

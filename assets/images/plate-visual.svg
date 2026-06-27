@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Number Plate Recognition">
+  <defs>
+    <radialGradient id="glow" cx=".72" cy=".2" r=".7">
+      <stop stop-color="#22c55e" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#38bdf8" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#070a12" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="44" fill="#080b12"/>
+  <rect width="960" height="540" rx="44" fill="url(#glow)"/>
+  <circle cx="812" cy="92" r="104" fill="#22c55e" opacity=".11"/>
+  <circle cx="148" cy="438" r="118" fill="#38bdf8" opacity=".12"/>
+  <path d="M84 454C256 346 376 494 534 376S750 246 884 320" stroke="url(#line)" stroke-width="5" fill="none" opacity=".55"/>
+
+        <g transform="translate(100 210)">
+          <path d="M76 104c22-80 88-122 198-122h226c106 0 176 42 205 122l49 26v104H26V130z" fill="#111827" stroke="#263146" stroke-width="3"/>
+          <path d="M132 102h490" stroke="#334155" stroke-width="38" stroke-linecap="round"/>
+          <rect x="265" y="78" width="235" height="66" rx="12" fill="#f8fafc"/>
+          <text x="292" y="121" font-size="32" font-weight="900" fill="#0f172a">GJ05RK</text>
+          <rect x="245" y="60" width="276" height="102" rx="18" fill="none" stroke="#22c55e" stroke-width="8"/>
+          <circle cx="162" cy="237" r="45" fill="#05070b" stroke="#475569" stroke-width="12"/>
+          <circle cx="618" cy="237" r="45" fill="#05070b" stroke="#475569" stroke-width="12"/>
+        </g>
+        <path d="M310 158h325" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+
+  <text x="56" y="72" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="900" fill="#ffffff">Number Plate Recognition</text>
+  <text x="58" y="110" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700" fill="#94a3b8">YOLOv8 computer vision pipeline</text>
+</svg>
